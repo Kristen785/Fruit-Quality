@@ -54,12 +54,12 @@ The evaluation metrics we take into account in this project is accuracy, precisi
 
 The results can be summarised to show us the metric value and the score of each metric and are listed as follows: <br> <br> 
 
-Metric <br>               Score <br> 
-Training Accuracy <br>      	~98% <br> 
-Validation Accuracy <br>   	~95% <br> 
-Test Accuracy <br>         	~94% <br> 
-Macro AUC <br>             	0.96 <br> 
-F1-Score  <br>             	0.93 <br> 
+Metric                       Score <br> 
+Training Accuracy          	~98% <br> 
+Validation Accuracy       	~95% <br> 
+Test Accuracy             	~94% <br> 
+Macro AUC                 	0.96 <br> 
+F1-Score                  	0.93 <br> 
 
 
 🧾 Visualizations <br>  <br> 
