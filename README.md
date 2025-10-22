@@ -10,12 +10,11 @@ The project demonstrates the application of Convolutional Neural Networks (CNNs)
 I have decided to be on my own as no one joined my group and therefore i decided to do he project on my own: 
 
 
-Name	                               Student Number	                            Team Name
+Name: Kristen M. Hoff                            	                           
+Student Number : 34292942	 
+Team Name : Arcane
 
-
-Kristen M. Hoff                    	 34292942	                                    Arcane
-
-
+                   	                                   
 🧩 Dataset Description
 
 
@@ -32,21 +31,28 @@ Target variable: Image label (fruit class/quality).
 
 ⚙️ Methodology
 
+
 1️⃣ Data Preprocessing
+
 
 First we need to load all images from class folders into a pandas DataFrame so that we can extract the information. After this we then need to split the dataset using stratified sampling. This can be in the form or ratio of 70% training, 15% validation and 15% testing. The most difficult but interesting part was to apply the ImageDataGenerator for real - time data augumentation. Despite this i still managed to make it work so we can get the data and see the data we need in order to successfully get all the values from our samples.
 
 
 2️⃣ Model Architecture
 
+
 This includes different training for the model. Firstly we need to train the header layers which is the freeze base model and then secondly we lower the learning rate by fine - tuning the last layers.
 
 
-3️⃣ Evaluation Metrics:
+3️⃣ Evaluation Metrics
+
 
 The evaluation metrics we take into account in this project is accuracy, precision, recall, F1 - score, confusion matrix, ROC Curves and AUC.
 
-📊 Results Summary:
+
+📊 Results Summary
+
+
 The results can be summarised to show us the metric value and the score of each metric and are listed as follows:
 
 Metric	                 Score
@@ -56,13 +62,16 @@ Test Accuracy         	~94%
 Macro AUC             	0.96
 F1-Score              	0.93
 
+
 🧾 Visualizations
+
 
 Confusion Matrix: Displays correct and incorrect classifications.
 
 ROC Curve: Evaluates multi-class discrimination power.
 
 Training Curves: Loss and accuracy trends during epochs.
+
 
 🧠 Discussion
 
@@ -71,40 +80,33 @@ Minor misclassifications were mainly between similar fruit quality categories (e
 Further improvements could include fine-tuning deeper layers, using a larger dataset, or experimenting with models like EfficientNet or Vision Transformers (ViT).
 
 
-
-🚀 How to Run
-Requirements
-
-Install dependencies:
-
-pip install tensorflow scikit-learn pandas matplotlib seaborn pillow
-
-Execution
-
-Download and extract the FruQ-DB dataset from Zenodo
-
-Set your dataset path in the notebook:
-
-DATA_DIR = "/path/to/FruQ-DB"
+🚀 How to Run The Project:
 
 
-Run the Jupyter notebook or Python script:
-
-jupyter notebook FruQDB_CNN.ipynb
+**Requirements**
 
 
-The model will train, evaluate, and save the best version as fruqd_resnet50_finetuned.h5.
+**Install dependencies:**
+1. pip install tensorflow scikit-learn pandas matplotlib seaborn pillow
 
 
-🧩 Evaluation & Presentation
+**Execution**
+2. Download and extract the FruQ-DB dataset from Zenodo
 
-Evaluation based on:
+**Set your dataset path in the notebook:**
+3. DATA_DIR = "/path/to/FruQ-DB"
 
-Model accuracy and performance metrics
+**Run the Jupyter notebook or Python script:**
+4. jupyter notebook FruQDB_CNN.ipynb
 
-Code functionality and reproducibility
 
-Oral presentation clarity and understanding
+###The model is designed to train, evaluate, and save the best version of itself as fruqd_resnet50_finetuned.h5. This version will be the most accurate so far according to it's training and the end result.###
+
+
+🧩 Evaluation
+
+
+The evaluation is based on the model accuracy and performance metrics, code functionality and reproducibility.
 
 
 #📚 References
