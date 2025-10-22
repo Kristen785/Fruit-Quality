@@ -7,10 +7,13 @@ The project demonstrates the application of Convolutional Neural Networks (CNNs)
 
 👥 Group Members
 
-#I have decided to be on my own as no one joined my group and therefore i decided to do he project on my own: 
+I have decided to be on my own as no one joined my group and therefore i decided to do he project on my own: 
 
-Name	           Student Number	          Team Name
-Kristen M. Hoff	 34292942	                 Arcane
+
+Name	                               Student Number	                            Team Name
+
+
+Kristen M. Hoff                    	 34292942	                                    Arcane
 
 
 🧩 Dataset Description
