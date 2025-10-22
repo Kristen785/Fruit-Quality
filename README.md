@@ -3,54 +3,54 @@
 📘 Project Overview
 
 This project aims to develop a deep learning model that classifies the quality of fruits using image data from the Fruit Quality Datasets (FruQ-DB).
-The project demonstrates the application of Convolutional Neural Networks (CNNs) and transfer learning (ResNet50) for image-based classification tasks.
+The project demonstrates the application of Convolutional Neural Networks (CNNs) and transfer learning (ResNet50) for image-based classification tasks. <br>
 
 👥 Group Members
 
-I have decided to be on my own as no one joined my group and therefore i decided to do he project on my own: 
+I have decided to be on my own as no one joined my group and therefore i decided to do he project on my own. <br> 
 
 
 Name: Kristen M. Hoff                            	                           
-Student Number : 34292942	 
+Student Number : 34292942	 <br>
 Team Name : Arcane
 
                    	                                   
-🧩 Dataset Description
+🧩 Dataset Description <br> <br>
 
 
-Dataset used: Fruit Quality Dataset (FruQ-DB)
+**Dataset used:** Fruit Quality Dataset (FruQ-DB) <br>
 
-Number of classes: Multiple fruit types and quality levels (e.g., Fresh, Rotten, Overripe).
+**Number of classes:** Multiple fruit types and quality levels (e.g., Fresh, Rotten, Over ripe). <br>
 
-Data type: RGB images.
+**Data type:** RGB images. <br>
 
-Input shape: (224 × 224 × 3).
+**Input shape:** (224 × 224 × 3 <br>
 
-Target variable: Image label (fruit class/quality).
-
-
-⚙️ Methodology
+**Target variable:** Image label (fruit class/quality). <br>
 
 
-1️⃣ Data Preprocessing
+⚙️ Methodology <br>
+
+
+1️⃣ Data Preprocessing <br>
 
 
 First we need to load all images from class folders into a pandas DataFrame so that we can extract the information. After this we then need to split the dataset using stratified sampling. This can be in the form or ratio of 70% training, 15% validation and 15% testing. The most difficult but interesting part was to apply the ImageDataGenerator for real - time data augumentation. Despite this i still managed to make it work so we can get the data and see the data we need in order to successfully get all the values from our samples.
 
 
-2️⃣ Model Architecture
+2️⃣ Model Architecture <br>
 
 
 This includes different training for the model. Firstly we need to train the header layers which is the freeze base model and then secondly we lower the learning rate by fine - tuning the last layers.
 
 
-3️⃣ Evaluation Metrics
+3️⃣ Evaluation Metrics <br>
 
 
 The evaluation metrics we take into account in this project is accuracy, precision, recall, F1 - score, confusion matrix, ROC Curves and AUC.
 
 
-📊 Results Summary
+📊 Results Summary <br>
 
 
 The results can be summarised to show us the metric value and the score of each metric and are listed as follows:
